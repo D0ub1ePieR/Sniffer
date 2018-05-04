@@ -1,0 +1,17 @@
+//common
+#include<string.h>
+#include<ctype.h>
+#include<stdio.h>
+#include<sys/file.h>
+#include<sys/time.h>
+//socket
+#include<sys/socket.h>
+#include<sys/ioctl.h>
+#include<sys/signal.h>
+#include<net/if.h>
+#include<arpa/inet.h>
+//
+#include<netinet/in.h>
+#include<netinet/ip.h>
+#include<netinet/tcp.h>
+#include<netinet/if_ether.h>
