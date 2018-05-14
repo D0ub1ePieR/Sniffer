@@ -1,4 +1,5 @@
 #include"header.h"
+#include"set_promisc.h"
 
 struct etherpacket
 {
@@ -8,5 +9,7 @@ struct etherpacket
 	char buff[8192];
 }ep;
 
-int main()
-{}
+int main(int argc,char *argv[])
+{
+	set_promisc(argc,argv);
+}
