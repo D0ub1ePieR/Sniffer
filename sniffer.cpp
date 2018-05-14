@@ -1,5 +1,6 @@
 #include"header.h"
 #include"set_promisc.h"
+#include"tcp_viewer.h"
 
 struct etherpacket
 {
@@ -12,4 +13,5 @@ struct etherpacket
 int main(int argc,char *argv[])
 {
 	set_promisc(argc,argv);
+	tcp_viewer();
 }
