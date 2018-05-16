@@ -1,14 +1,9 @@
 #include"header.h"
 #include"set_promisc.h"
 #include"tcp_viewer.h"
-
-struct etherpacket
-{
-	struct ethhdr eth;
-	struct iphdr ip;
-	struct tcphdr tcp;
-	char buff[8192];
-}ep;
+#include<iostream>
+#include<fstream>
+using namespace std;
 
 int main(int argc,char *argv[])
 {
